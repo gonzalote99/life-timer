@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>life timer</title>
+</head>
+<body>
+  <main>
+  <div id="initEle" class="main_container">
+   <h2>enter date</h2>
+  </div>
+  <div id="afterDobEle" class="time_container hide">
+   <h1> time remain</h1>
+   <img class="heartbeat" src="https://raw.githubusercontent.com/pradipchaudhary/100-javascript-projects/master/Life-timer/heartbeat.gif" alt="heartbeat" >
+   <div class="inner_container">
+   <div class="inner_item">
+   <h2 id="year">00</h2>
+   <h4>years</h4>
+   </div>
+   <div class="inner_item">
+    <h2 id="month">00</h2>
+    <h4>month</h4>
+    </div>
+    <div class="inner_item">
+      <h2 id="day">00</h2>
+      <h4>day</h4>
+      </div>
+      <div class="inner_item">
+        <h2 id="hour">00</h2>
+        <h4>hour</h4>
+        </div>
+        <div class="inner_item">
+          <h2 id="minute">00</h2>
+          <h4>years</h4>
+          </div>
+          <div class="inner_item">
+            <h2 id="second">00</h2>
+            <h4>second</h4>
+            </div>
+   </div>
+  </div>
+  <div class="settings">
+   <img id="settingIcon" src="https://raw.githubusercontent.com/pradipchaudhary/100-javascript-projects/master/Life-timer/setting_icon.png" alt="">
+   <div id="settingContent" class="setting_content hide">
+     <div class="inner_content">
+      <input id="dobValue"  type="date" value="">
+      <button id="dobButton" >add</button>
+
+     </div>
+   </div>
+  </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
